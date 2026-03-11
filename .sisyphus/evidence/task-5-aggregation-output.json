@@ -1,0 +1,55 @@
+{
+  "task": "Task 5: Aggregation Script",
+  "status": "completed",
+  "output_files": {
+    "ip_reputation.json": {
+      "path": "data/ip_reputation.json",
+      "size_bytes": 7552081,
+      "entries_count": 47341
+    },
+    "ip_blocklist.txt": {
+      "path": "data/ip_blocklist.txt",
+      "size_bytes": 680806,
+      "lines_count": 47341
+    },
+    "ja4_fingerprints.json": {
+      "path": "data/ja4_fingerprints.json",
+      "size_bytes": 199604,
+      "entries_count": 1000
+    },
+    "stats.json": {
+      "path": "data/stats.json",
+      "size_bytes": 182,
+      "content": {
+        "ip_count": 47341,
+        "ja4_count": 1000,
+        "sources": [
+          "c2tracker",
+          "feodo",
+          "ipsum",
+          "ja4db",
+          "spamhaus_drop"
+        ],
+        "last_updated": "2026-03-11T08:45:56Z"
+      }
+    }
+  },
+  "sources": [
+    "c2tracker",
+    "feodo",
+    "ipsum",
+    "ja4db",
+    "spamhaus_drop"
+  ],
+  "validation": {
+    "ip_invalid_ratio": 0.0,
+    "ja4_invalid_ratio": 0.0,
+    "threshold": 0.1,
+    "passed": true
+  },
+  "limits_enforced": {
+    "max_ip_entries": 50000,
+    "max_ja4_entries": 1000,
+    "ja4_truncated": true
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "ip": "192.168.1.1",
+    "source": "threatfox",
+    "confidence": 95,
+    "category": "c2",
+    "tags": [
+      "emotet"
+    ],
+    "malware": "Emotet",
+    "first_seen": "2024-01-01",
+    "last_seen": "2024-01-02"
+  },
+  {
+    "ip": "10.0.0.1",
+    "source": "threatfox",
+    "confidence": 95,
+    "category": "c2",
+    "tags": [
+      "cs"
+    ],
+    "malware": "Cobalt Strike",
+    "first_seen": "2024-01-01",
+    "last_seen": "2024-01-02"
+  }
+]

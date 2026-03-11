@@ -45,10 +45,10 @@ waf-threat-database/
 
 ### Direct Download
 Download the latest threat data files from the `data/` directory:
-- `data/malicious-ips.json` - Structured IP threat data
-- `data/malicious-ips.txt` - Plain text IP list
-- `data/malicious-domains.json` - Structured domain threat data
-- `data/malicious-domains.txt` - Plain text domain list
+- `data/ip_reputation.json` - Structured IP reputation data
+- `data/ip_blocklist.txt` - Plain text IP blocklist
+- `data/ja4_fingerprints.json` - JA4 TLS fingerprint database
+- `data/stats.json` - Aggregation statistics and metadata
 
 ### Integration
 Import the JSON files into your WAF configuration system or use the plain text files for direct rule generation.
@@ -58,7 +58,7 @@ Clone this repository and use the aggregation scripts to fetch fresh data:
 
 ```bash
 pip install -r requirements.txt
-python scripts/fetch_threats.py
+python scripts/aggregate.py
 ```
 
 ## Contributing
