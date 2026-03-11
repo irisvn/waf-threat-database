@@ -19,9 +19,7 @@ ENV/
 .env
 .env.local
 
-# Data content (keep directory, ignore files)
-data/*.json
-data/*.txt
+# OS
 
 # OS
 .DS_Store
