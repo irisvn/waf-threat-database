@@ -48,5 +48,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git add data/
           git commit -m "chore: daily threat intel update $(date -u +'%Y-%m-%d')"
-          git pull --rebase origin main
+          git pull --rebase origin master
           git push
