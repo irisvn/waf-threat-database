@@ -1,5 +1,5 @@
 {
-  "ip_count": 39115,
+  "ip_count": 39930,
   "ja4_count": 1000,
   "sources": [
     "c2tracker",
@@ -8,5 +8,5 @@
     "ja4db",
     "spamhaus_drop"
   ],
-  "last_updated": "2026-04-04T03:10:55Z"
+  "last_updated": "2026-04-05T03:14:39Z"
 }
