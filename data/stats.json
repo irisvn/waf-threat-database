@@ -1,12 +1,11 @@
 {
-  "ip_count": 36946,
+  "ip_count": 34592,
   "ja4_count": 1000,
   "sources": [
-    "c2tracker",
     "feodo",
     "ipsum",
     "ja4db",
     "spamhaus_drop"
   ],
-  "last_updated": "2026-04-12T03:15:46Z"
+  "last_updated": "2026-04-13T03:18:30Z"
 }
