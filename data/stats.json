@@ -1,11 +1,11 @@
 {
-  "ip_count": 39239,
-  "ja4_count": 1000,
+  "ip_count": 39989,
+  "ja4_count": 0,
   "sources": [
     "feodo",
     "ipsum",
     "ja4db",
     "spamhaus_drop"
   ],
-  "last_updated": "2026-05-15T03:21:38Z"
+  "last_updated": "2026-05-16T03:19:47Z"
 }
