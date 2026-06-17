@@ -1,5 +1,5 @@
 {
-  "ip_count": 39626,
+  "ip_count": 40905,
   "ja4_count": 0,
   "sources": [
     "feodo",
@@ -7,5 +7,5 @@
     "ja4db",
     "spamhaus_drop"
   ],
-  "last_updated": "2026-06-16T03:24:33Z"
+  "last_updated": "2026-06-17T03:24:21Z"
 }
