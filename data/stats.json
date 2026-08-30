@@ -1,10 +1,10 @@
 {
-  "ip_count": 32384,
+  "ip_count": 33451,
   "ja4_count": 0,
   "sources": [
     "ipsum",
     "ja4db",
     "spamhaus_drop"
   ],
-  "last_updated": "2026-08-29T08:57:03Z"
+  "last_updated": "2026-08-30T08:14:32Z"
 }
